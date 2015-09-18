@@ -41,7 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSharpCompiler.cs" />
+    <Compile Include="FailReason.cs" />
     <Compile Include="ICompiler.cs" />
+    <Compile Include="ITester.cs" />
     <Compile Include="ITestServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
