@@ -5,7 +5,7 @@ namespace TestServer
 {
     internal interface ITester
     {
-        void Test(Process proc, IList<string> testCases, string inputDirectory, string outputDirectory, int failedTest,
-            FailReason reason);
+        void Test(Process proc, Dictionary<string, string> testCases, string inputDirectory, string outputDirectory,
+            out Result result);
     }
 }
